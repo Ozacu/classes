@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNTgFdMnr+ciRz7W++ZD5kC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ozacu/classes/blob/main/Module%201%3A%20Variables\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 16,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s_BRnyMz-JuB",
+        "outputId": "227682f8-2141-4feb-acd2-4bc5b71f851d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: Oscar\n",
+            "Enter your country: Ecuador\n",
+            "Enter your school: CCTB\n",
+            "Enter your location of your school: Vancouver\n",
+            "My name is Oscar from Ecuador studying at CCTB in Vancouver\n"
+          ]
+        }
+      ],
+      "source": [
+        "name= input(\"Enter your name: \")\n",
+        "country= input(\"Enter your country: \")\n",
+        "school= input(\"Enter your school: \")\n",
+        "location= input(\"Enter your location of your school: \")\n",
+        "\n",
+        "print(\"My name is \" + name + \" from \" + country + \" studying at \" + school + \" in \" + location)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "f7e7gylZ_CQy"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
